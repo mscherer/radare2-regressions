@@ -2,6 +2,7 @@
 for a in . .. ../.. ; do [ -e $a/tests.sh ] && . $a/tests.sh ; done
 
 NAME="arm thumb basic block detection with ITTE"
+BROKEN=1
 FILE=../../bins/elf/analysis/bug-it-bb
 CMDS='
 aaa
